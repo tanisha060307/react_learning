@@ -2,7 +2,8 @@ import Message from "./Message";
 function App(){
   return (
   <div>
-    <Message />
+    <h1> hello </h1>
+    <p> is it going? </p>
   </div>
   );
 }
