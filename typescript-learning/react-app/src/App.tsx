@@ -1,20 +1,14 @@
 import Message from "./Message";
 import {Welcome} from "./welcome";
+import {UserCard} from "./UserCard";
 function App(){
-  const  name='Tanisha';
-  const items = [1,2,3];
-  const styles ={
-    backgroundColor: 'red',
-    color:'white'
-  }
+  
   return (
-  <div>
+  <>
     <Welcome name='Tanisha' />
-    <input type="text" defaultValue={name} />
-    <p style={styles}>Sum: {2 + 2}</p>
-    <p>Items: {items.length}</p>
-    <p>Today: {new Date().toDateString()}</p>
-  </div>
+    <UserCard name='Ahsan' role='admin' verified={true} />
+    <UserCard name='Azad' role='user' verified={false} />
+  </>
   );
 }
 export default App;
