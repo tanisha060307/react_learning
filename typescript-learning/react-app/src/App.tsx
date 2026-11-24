@@ -3,7 +3,8 @@ function App(){
   const  name='Tanisha';
   const items = [1,2,3];
   const styles ={
-    backgroundColor: 'red'
+    backgroundColor: 'red',
+    color:'white'
   }
   return (
   <div>
