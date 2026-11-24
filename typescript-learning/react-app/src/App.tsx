@@ -1,4 +1,5 @@
 import Message from "./Message";
+import {Welcome} from "./welcome";
 function App(){
   const  name='Tanisha';
   const items = [1,2,3];
@@ -8,6 +9,7 @@ function App(){
   }
   return (
   <div>
+    <Welcome />
     <input type="text" defaultValue={name} />
     <p style={styles}>Sum: {2 + 2}</p>
     <p>Items: {items.length}</p>
