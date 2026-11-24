@@ -9,7 +9,7 @@ function App(){
   }
   return (
   <div>
-    <Welcome />
+    <Welcome name='Tanisha' />
     <input type="text" defaultValue={name} />
     <p style={styles}>Sum: {2 + 2}</p>
     <p>Items: {items.length}</p>

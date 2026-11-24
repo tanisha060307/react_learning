@@ -1,3 +1,3 @@
-export const Welcome = () =>{
-return <h1>Hello, world !</h1>;
+export const Welcome = ({name}) =>{
+return <h1>Hello, {name} !</h1>;
 };
