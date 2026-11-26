@@ -5,6 +5,9 @@ type UserCardProps = {
 };
 
 export const UserCard = ({ name, role, verified }: UserCardProps) => {
+const greetUser = (userName : string)=>{
+  alert(`Hello, ${userName}!`);
+}
 return (
 <div style ={{
     display:'flex',
@@ -17,7 +20,9 @@ return (
 <h2>{name}</h2>
 <p>{role}</p>
 {verified && <span>✓</span>}
-<button> user info </button>
+<button onClick={() => 
+  greetUser(name)
+  }> user info </button>
 </div>
 );
 }
