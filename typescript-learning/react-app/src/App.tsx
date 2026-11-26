@@ -1,8 +1,10 @@
 import "./App.css";
-import Message from "./Message";
+
 import {Welcome} from "./welcome";
 import {UserCard} from "./UserCard";
 import {Card} from "./card";
+import {Button} from "./Button";
+
 function App(){
   
   return (
@@ -14,6 +16,7 @@ function App(){
      <UserCard name='Ahsan' role='admin' verified={true} />
     <UserCard name='Azad' role='user' verified={false} />
     </Card>
+    <Button />
   </>
   );
 }

@@ -17,6 +17,7 @@ return (
 <h2>{name}</h2>
 <p>{role}</p>
 {verified && <span>✓</span>}
+<button> user info </button>
 </div>
 );
 }
