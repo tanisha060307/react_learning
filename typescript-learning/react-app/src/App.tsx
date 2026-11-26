@@ -10,8 +10,10 @@ function App(){
     <Card>
       <Welcome name="Tanisha" />
     </Card>
-    <UserCard name='Ahsan' role='admin' verified={true} />
+   <Card> 
+     <UserCard name='Ahsan' role='admin' verified={true} />
     <UserCard name='Azad' role='user' verified={false} />
+    </Card>
   </>
   );
 }
